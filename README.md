@@ -6,6 +6,8 @@ A bash script that creates and drops users and policies.
 
 A default installation of MinIO gives you one root user and password to manage all buckets. Creating users manually is a tiring process, so I built this script that will create and remove users and policies at once.
 
+This allows a separate set of username and password (access keys and secret keys) for each bucket.
+
 # Usage
 
 ```
