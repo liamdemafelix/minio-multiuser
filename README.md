@@ -29,4 +29,4 @@ To drop a user and policy all in one go, run `mcm.sh -r <remote> -a drop -u <use
 
 # License
 
-This script is licensed under the MIT Open Source License
+This script is licensed under the MIT Open Source License.
