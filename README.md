@@ -22,6 +22,8 @@ Removed user `DFZCO26PV1ECQBD2` successfully.
 User and policy deleted. Bucket retained. To remove, run /usr/bin/mc rb <remote>/<bucket-name>.
 ```
 
+Edit the script to reflect your actual `mc` command (the value of the `MINIO` variable). This could be a path to the `mc` binary (by default) or a Docker command. Then, give it execute permissions: `chmod +x mcm.sh`
+
 To create a user, bucket and policy all in one go, run `mcm.sh -r <remote> -a create -b <bucket name>`. If a bucket already exists, it'll silently fail to create the bucket but will still assign access to the user that will be created.
 
 To specify your own username and password, simply append `-u <username>` and `-p <password>` to the command. Usernames and passwords are randomly generated if ommitted from the command.
