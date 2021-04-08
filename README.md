@@ -15,6 +15,7 @@ Added user `DFZCO26PV1ECQBD2` successfully.
 Added policy `DFZCO26PV1ECQBD2-test-bucket-rw-20210408053955` successfully.
 Policy `DFZCO26PV1ECQBD2-test-bucket-rw-20210408053955` is set on user `DFZCO26PV1ECQBD2`
 Bucket test-bucket assigned to DFZCO26PV1ECQBD2 with password WCKLXXMW7YA7PE6DB56BZHCIMFYKR0E9.
+
 liam@server ~ # mcm.sh -r liam -a drop -u DFZCO26PV1ECQBD2
 Removed policy `DFZCO26PV1ECQBD2-test-bucket-rw-20210408053955` successfully.
 Removed user `DFZCO26PV1ECQBD2` successfully.
